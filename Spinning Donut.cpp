@@ -45,7 +45,6 @@ string render_frame(double angle)
 			x = x * cosA - y * sinA;
 			y = temp_x * sinA + y * cosA;
 
-			//".,-~:;=!*#$@"
 			char c = "@$#*!=;:~-,."[(int)(((double)z + 40) / 80 * 12)];
 			output[k1 * y / (k2 + z) + center_y][k1 * x / (k2 + z) + center_x] = c;
 		}
@@ -67,8 +66,6 @@ string render_frame(double angle)
 
 int main()
 {
-	int a = 10;
-
 	double angle = 0;
 	while (true)
 	{
